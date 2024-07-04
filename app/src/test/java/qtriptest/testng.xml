@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SanityQtrip">
+
+   <test name="SearchAndFilterFlow_01">
+      <classes>
+         <class name="qtriptest.tests.testCase_01" />
+      </classes> 
+   </test>
+
+   <test name="SearchAndFilterFlow_02">
+      <classes>
+         <class name="qtriptest.tests.testCase_02"/>
+      </classes>
+   </test>
+
+   <test name="BookingAndCancellationFlow">
+      <classes>
+         <class name="qtriptest.tests.testCase_03"/>
+      </classes>
+   </test>
+
+   <test name="ReliabilityFlow">
+      <classes>
+         <class name="qtriptest.tests.testCase_04"/>
+      </classes>
+   </test> 
+
+</suite>
